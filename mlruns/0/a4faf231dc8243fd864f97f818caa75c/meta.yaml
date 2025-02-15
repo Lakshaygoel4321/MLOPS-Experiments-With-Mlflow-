@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/a4faf231dc8243fd864f97f818caa75c/artifacts
+end_time: 1739640731574
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a4faf231dc8243fd864f97f818caa75c
+run_name: second
+run_uuid: a4faf231dc8243fd864f97f818caa75c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739640730809
+status: 3
+tags: []
+user_id: iamda

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/1c81b99b398442f0a8f8849b380c747b/artifacts
+deleted_time: 1739640529540
+end_time: 1739640416992
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 1c81b99b398442f0a8f8849b380c747b
+run_name: first
+run_uuid: 1c81b99b398442f0a8f8849b380c747b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739640416741
+status: 4
+tags: []
+user_id: iamda
