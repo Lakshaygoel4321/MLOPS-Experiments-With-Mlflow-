@@ -9,8 +9,10 @@ import mlflow
 import mlflow.sklearn
 import matplotlib.pyplot as plt
 import seaborn as sns
+import dagshub
+dagshub.init(repo_owner='iamhimanshu12goel', repo_name='MLOPS-Experiments-With-Mlflow-', mlflow=True)
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_tracking_uri("https://dagshub.com/iamhimanshu12goel/MLOPS-Experiments-With-Mlflow-.mlflow/")
 
 breast = load_breast_cancer()
 
@@ -22,7 +24,7 @@ x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=0.2,random_state=
 n_estimators = 55
 max_depth = 6
 
-with mlflow.run('third'):
+with mlflow.start_run(run_name='third'):
 
     clf = RandomForestClassifier(n_estimators=n_estimators,max_depth=max_depth,random_state=2)
     clf.fit(x_train,y_train)
